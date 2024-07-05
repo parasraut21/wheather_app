@@ -3,6 +3,16 @@
 Weather Wonder is a React-based web application that provides weather forecasts for cities around the world. It features a dynamic user interface that changes based on weather conditions and supports multiple languages.
 
 ### **Live at :-** https://wheather-app-paras.vercel.app/
+
+## Home 
+![image](https://github.com/parasraut21/wheather_app/assets/111653346/f4e0db77-fe2e-421e-8a2d-17840c0dca73)
+
+## Wheather Details
+![image](https://github.com/parasraut21/wheather_app/assets/111653346/4c09b674-8395-44e4-b98a-31644c54dadf)
+
+## Forecast
+![image](https://github.com/parasraut21/wheather_app/assets/111653346/a1904752-0fcb-49d1-9e2a-a2ad19556430)
+
 ## Setup Instructions
 
 1. Clone the repository:
