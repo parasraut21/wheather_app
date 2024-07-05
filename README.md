@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Weather Wonder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Weather Wonder is a React-based web application that provides weather forecasts for cities around the world. It features a dynamic user interface that changes based on weather conditions and supports multiple languages.
 
-## Available Scripts
+### **Live at :-** https://wheather-app-paras.vercel.app/
+## Setup Instructions
 
-In the project directory, you can run:
+1. Clone the repository:
+2. Install dependencies:
+3. Set up environment variables:
+- Copy `.env.example` to `.env`
+- Replace `your_api_key_here` in `.env` with your actual WeatherAPI key
+4. Add translation files:
+- Navigate to `public/locales`
+- Add translation JSON files for each supported language
 
-### `npm start`
+## Running the Application
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To start the development server:
+npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Real-time weather data for cities worldwide
+- 7-day weather forecast
+- Dynamic UI that changes based on weather conditions
+- Multi-language support
+- Responsive design for various screen sizes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- React
+- Material-UI
+- react-i18next for internationalization
+- Framer Motion for animations
+- Recharts for data visualization
+- Axios for API requests
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project uses the WeatherAPI from RapidAPI. You'll need to sign up for an API key at [RapidAPI](https://rapidapi.com/weatherapi/api/weatherapi-com/) to use this application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
 
-### `npm run eject`
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open source and available under the [MIT License](LICENSE).
